@@ -1,0 +1,18 @@
+/* Matchwork build-out additions — utilities absent from the live compiled CSS */
+.w-full{width:100%}
+.object-cover{object-fit:cover}
+.h-56{height:14rem}
+.h-64{height:16rem}
+.flex-1{flex:1 1 0%}
+.gap-x-10{column-gap:2.5rem}
+.gap-y-2{row-gap:.5rem}
+.mt-5{margin-top:1.25rem}
+.mt-10{margin-top:2.5rem}
+.pt-1{padding-top:.25rem}
+.py-6{padding-top:1.5rem;padding-bottom:1.5rem}
+.py-8{padding-top:2rem;padding-bottom:2rem}
+.py-18{padding-top:4.5rem;padding-bottom:4.5rem}
+.underline{text-decoration:underline}
+.space-y-8>:not([hidden])~:not([hidden]){margin-top:2rem}
+.border-white\/10{border-color:rgba(255,255,255,.1)}
+.group:hover .group-hover\:border-blue-300{border-color:#93c5fd}
